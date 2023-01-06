@@ -1,65 +1,55 @@
-<html>    
-<head>    
-    <meta charset="utf-8">    
-    <title>www.vijayakumar.com</title>    
-</head>    
-<font color="#A6ACAF" size="5">    
-    <marquee><b><i>THANKS FOR WATCHING</i></b></marquee>    
-</font>    
-<body background="C:\Users\vijayakumar\Pictures\photo29.jpg" link="white" alink="blue" vlink="#F8F8FF" > //background image  
-    <br />    
-               
-        <font face="Lato" size="5"><img src="C:\Users\vijayakumar\Pictures\logo.jpg" height="50px" width="100px"></font>//logo image  
-                               
-        <font face="cinzel" size="4">    
-            <a href="#">HOME</a>    
-                                      &n      bsp;                           &nbs      p;                                                        
-                             
-                                                                                    
-            <a href="#">VIDEOS</a>    
-                        
-            <a href="#">ARTICLES</a>    
-                        
-            <a href="#">BLOG</a>    
-                        
-            <a href="#">ABOUT US</a>    
-        </font>    
-    <br /><br /><br /><br />    
-    <br />    
-    <br />    
-    <h1 align="center">    
-        <font color="#F0B27A" size="9" >    
-            WELCOME TO WEB PAGE<br/>    
-    </font>    
-    SIMPLE WEB PAGE     
-    </h1>    
-    <h3 align="center">    
-        <font face="Lato" color="red" size="3">    
-            Onyly Using Simple HTML Code    
-        </font>    
-    <br /><br /><br /><br /><br /><br/><br/><br/><br/>    
-    <hr width="1500px">    
-    <center>    
-    <b>    
-    <font face="cinzel" size="4">    
-        <a href ="#">About Us|     
-        <a href ="#">Contact Us |    
-        <a href ="#"> Privacy Policy |    
-        <a href ="#"> Terms |     
-        <a href ="#">Media Kit |    
-        <a href ="#"> Sitemap |    
-        <a href ="#"> Report a Bug |    
-        <a href ="#"> FAQ Partners</a><br/>    
-        <a href ="#">C# Tutorials|    
-        <a href ="#"> Common Interview Questions|    
-        <a href ="#"> Stories |    
-        <a href ="#">Consultants |    
-        <a href ="#"> Ideas |    
-        <a href ="#"> Certifications    
-    </a><br/><br/>    
-            <font color="#FF0000">all@copyrights 2020</font>    
-    </font>    
-    </b>    
-    </center>    
-</body>    
-</html>    
+<!DOCTYPE HTML>
+<!-- This is how HTML comments look like -->
+<html>
+<!-- the title will appear on the page-->
+<head>
+<title>Employee Interests Survey</title>
+</head>
+<body>
+<!-- as it is a survey form, we will need to submit the details, hence we use form -->
+<!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
+<form action="http://google.co.in">
+<!-- If we remove this, every thing will move to the left of the page-->
+<div align="center">
+<!--Adds a heading to the form-->
+<h1>Employee Interests Survey form</h1>
+Enter your name:
+<!-- Input type text for small texts, specify size -->
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+<!--Adds spaces - remove and see what happens -->
+</br></br>
+Enter your department:
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+Tell us a little about yourself:
+<!-- For writing lot of text like descriptions with text wrapping,
+if you dont want text wrapping, you can add wrap = "off" (horizontal scrollbar -->
+<textarea name="Comments" cols=30 rows=4></textarea> </br> </br>
+Do you exercise at home?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+How do you like to read about your favorite topics?
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="Books">Books
+<input type="checkbox" name="Web">Online resources
+<input type="checkbox" name="Phone">Phone apps
+<input type="checkbox" name="Magazines">Magazines
+</p>
+What genre of movies do you like?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" ><option>
+<option value=1 selected = "true">comedy
+<option value=2 >romance
+<option value=3 >thriller
+<option value=4 >horror
+<option value=5 >biopic
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+<input type=submit value="Submit form">
+</div>
+</form>
+</body>
+</html>
